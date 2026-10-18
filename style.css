@@ -1,0 +1,122 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #F4F7FB;
+color: #334155;
+line-height: 1.6;
+}
+
+header {
+background-color: #1D4ED8;
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+header h1 {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+header p {
+font-size: 17px;
+}
+
+main {
+width: 90%;
+max-width: 850px;
+margin: 30px auto;
+}
+
+.form-section .result-section .quotes-section {
+background-color: white;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+color: #1D4ED8;
+margin-top: 0;
+}
+
+label {
+display: block;
+margin-top: 15px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input {
+width: 100%;
+padding: 12px;
+border: 1px solid #CBD5E1;
+border-radius: 6px;
+font-size: 16px;
+}
+
+input:focus {
+outline: 2px solid #93C5FD;
+border-color: #1D4ED8;
+}
+
+
+button {
+width: 100%;
+margin-top: 20px;
+padding: 12px;
+background-color: #1D4ED8;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #1E40AF;
+}
+
+
+#greeting {
+font-size: 22px;
+font-weight: bold;
+color: #1D4ED8;
+}
+
+.quote {
+background-color: #EFF6FF;
+padding: 15px;
+margin-top: 12px;
+border-left: 4px solid #1D4ED8;
+border-radius: 6px;
+}
+
+
+footer {
+text-align: center;
+padding: 20px;
+color: #64748B;
+}
+
+
+@media (max-width: 600px) {
+
+header h1 {
+    font-size: 27px;
+}
+
+main {
+     width: 92%;
+}
+
+.form-section,.result-section .quotes-section {
+    padding: 18px;
+}
+
+}
